@@ -1,6 +1,6 @@
 {
   "name": "nebula-web",
-  "version": "7.10.0",
+  "version": "7.11.6",
   "description": "Explore the web. Freely.",
   "type": "module",
   "main": "app.js",
@@ -11,16 +11,18 @@
     "proxy"
   ],
   "author": "Nebula Services",
-  "license": "GNU AGPL V3",
+  "license": "AGPL-3.0-only",
   "dependencies": {
-    "@tomphttp/bare-server-node": "^1.0.2-beta-readme5",
-    "crypto-js": "4.1.1",
-    "css-tree": "^2.1.0",
-    "node-fetch": "^3.2.6",
-    "serve-static": "^1.15.0",
-    "ws": "^8.8.1"
+    "@sendgrid/mail": "^7.7.0",
+    "@titaniumnetwork-dev/ultraviolet": "^1.0.8-beta",
+    "@tomphttp/bare-server-node": "^1.2.3",
+    "bcrypt": "^5.1.0",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.2",
+    "nodemailer": "^6.9.1",
+    "uuid": "^9.0.0"
   },
   "engines": {
-    "node": ">=16.0.0"
+    "node": ">=18"
   }
 }
